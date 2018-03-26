@@ -4,7 +4,7 @@ The Student_Import.py is the script that automatically create or suspend student
 
 This script utilizes Python 3.6 and GAM for google apps (https://github.com/jay0lee/GAM).
 
-It looks at a csv file exported at 4:00 AM from PowerSchool to determine if there are new or suspended accounts.
+It looks at a csv file exported at 4:00 AM from PowerSchool to determine if there are new accounts created or suspended accounts for students no long with us.
 
 Features are specific to the way PowerSchool is configured for our district.  We also utilize custom data fields which are reflected in this script.
 
@@ -17,3 +17,8 @@ The stuImport.sh is the file that the plist calls to run the Python script.
 studentAccounts9.csv is a sample file with fictional data used to test out the import.
 
 Use this application/script at your own risk.
+
+
+Next Steps: 
+Add modules for comparing data from yesterday to today to determine if a student was transfered between buildings
+If a student is transfered, then move them to the correct new organizational unit within google, remove them fron the printer group and add them to the correct building printer group.
