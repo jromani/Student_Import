@@ -19,6 +19,6 @@ studentAccounts9.csv is a sample file with fictional data used to test out the i
 Use this application/script at your own risk.
 
 
-Next Steps: 
+# Next Steps: 
 Add modules for comparing data from yesterday to today to determine if a student was transfered between buildings
 If a student is transfered, then move them to the correct new organizational unit within google, remove them fron the printer group and add them to the correct building printer group.
