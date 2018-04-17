@@ -34,14 +34,14 @@ logging.basicConfig(filename="Student_Import.log", level = logging.DEBUG,
 
 
 #Static Data for testing purposes.
-#exitdate =  '2/21/18'
-#entrydate = '2/15/18'
+#exitdate =  '2/21/2018'
+#entrydate = '2/15/2018'
 now = datetime.now()
 
-#testing date is 2/15/18 works with Sample StudentAccounts9.csv file
-#today = '2/15/18'
-today = now.strftime('%-m/%-d/%y')
-plainday = now.strftime('%m%d%y')
+#testing date is 2/15/2018 works with Sample StudentAccounts9.csv file
+#today = '2/15/2018'
+today = now.strftime('%-m/%-d/%Y')
+plainday = now.strftime('%m%d%Y')
 
 # File import funcation
 # Pull the csv file from the local server
